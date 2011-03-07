@@ -4,10 +4,14 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>appl</key>
+            <string>app\views\layouts\application.html.erb</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
+            <key>ome</key>
+            <string>app\views\pages\home.html.erb</string>
             <key>page</key>
-            <string>spec\controllers\pages_controller_spec.rb</string>
+            <string>app\controllers\pages_controller.rb</string>
             <key>route</key>
             <string>config\routes.rb</string>
         </dict>
