@@ -12,9 +12,15 @@
             <string>app\views\pages\home.html.erb</string>
             <key>page</key>
             <string>app\controllers\pages_controller.rb</string>
+            <key>pagec</key>
+            <string>spec\controllers\pages_controller_spec.rb</string>
             <key>pages</key>
             <string>spec\controllers\pages_controller_spec.rb</string>
+            <key>rout</key>
+            <string>config\routes.rb</string>
             <key>route</key>
+            <string>config\routes.rb</string>
+            <key>routes</key>
             <string>config\routes.rb</string>
         </dict>
     </dict>
