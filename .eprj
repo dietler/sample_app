@@ -12,6 +12,8 @@
             <string>app\views\pages\home.html.erb</string>
             <key>page</key>
             <string>app\controllers\pages_controller.rb</string>
+            <key>pages</key>
+            <string>spec\controllers\pages_controller_spec.rb</string>
             <key>route</key>
             <string>config\routes.rb</string>
         </dict>
