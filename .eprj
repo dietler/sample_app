@@ -8,6 +8,8 @@
             <string>app\views\layouts\application.html.erb</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
+            <key>lay</key>
+            <string>spec\requests\layout_links_spec.rb</string>
             <key>ome</key>
             <string>app\views\pages\home.html.erb</string>
             <key>page</key>
@@ -16,12 +18,16 @@
             <string>spec\controllers\pages_controller_spec.rb</string>
             <key>pages</key>
             <string>spec\controllers\pages_controller_spec.rb</string>
+            <key>rou</key>
+            <string>config\routes.rb</string>
             <key>rout</key>
             <string>config\routes.rb</string>
             <key>route</key>
             <string>config\routes.rb</string>
             <key>routes</key>
             <string>config\routes.rb</string>
+            <key>user</key>
+            <string>app\controllers\users_controller.rb</string>
         </dict>
     </dict>
 </plist>
