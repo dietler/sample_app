@@ -6,6 +6,8 @@
         <dict>
             <key>appl</key>
             <string>app\views\layouts\application.html.erb</string>
+            <key>gem</key>
+            <string>Gemfile</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
             <key>lay</key>
@@ -27,7 +29,7 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>user</key>
-            <string>app\controllers\users_controller.rb</string>
+            <string>app\models\user.rb</string>
         </dict>
     </dict>
 </plist>
