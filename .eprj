@@ -14,6 +14,8 @@
             <string>app\views\pages\home.html.erb</string>
             <key>lay</key>
             <string>spec\requests\layout_links_spec.rb</string>
+            <key>new.</key>
+            <string>app\views\users\new.html.erb</string>
             <key>ome</key>
             <string>app\views\pages\home.html.erb</string>
             <key>page</key>
@@ -32,8 +34,10 @@
             <string>config\routes.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
+            <key>use</key>
+            <string>spec\controllers\users_controller_spec.rb</string>
             <key>user</key>
-            <string>app\controllers\users_controller.rb</string>
+            <string>app\models\user.rb</string>
             <key>users</key>
             <string>app\helpers\users_helper.rb</string>
         </dict>
