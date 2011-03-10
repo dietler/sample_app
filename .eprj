@@ -28,10 +28,12 @@
             <string>config\routes.rb</string>
             <key>routes</key>
             <string>config\routes.rb</string>
+            <key>show</key>
+            <string>app\views\users\show.html.erb</string>
             <key>user</key>
             <string>app\controllers\users_controller.rb</string>
             <key>users</key>
-            <string>spec\controllers\users_controller_spec.rb</string>
+            <string>app\helpers\users_helper.rb</string>
         </dict>
     </dict>
 </plist>
