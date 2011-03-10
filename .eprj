@@ -6,6 +6,8 @@
         <dict>
             <key>appl</key>
             <string>app\views\layouts\application.html.erb</string>
+            <key>custom</key>
+            <string>public\stylesheets\custom.css</string>
             <key>gem</key>
             <string>Gemfile</string>
             <key>home</key>
