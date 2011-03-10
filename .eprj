@@ -29,7 +29,7 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>user</key>
-            <string>spec\models\user_spec.rb</string>
+            <string>app\models\user.rb</string>
         </dict>
     </dict>
 </plist>
