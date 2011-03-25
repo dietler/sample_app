@@ -20,6 +20,10 @@
             <string>spec\requests\layout_links_spec.rb</string>
             <key>lay</key>
             <string>spec\requests\layout_links_spec.rb</string>
+            <key>layout</key>
+            <string>spec\requests\layout_links_spec.rb</string>
+            <key>new</key>
+            <string>app\views\users\new.html.erb</string>
             <key>new.</key>
             <string>app\views\users\new.html.erb</string>
             <key>ome</key>
@@ -38,6 +42,8 @@
             <string>config\routes.rb</string>
             <key>routes</key>
             <string>config\routes.rb</string>
+            <key>sess</key>
+            <string>spec\controllers\sessions_controller_spec.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
             <key>use</key>
