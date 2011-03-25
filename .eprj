@@ -8,6 +8,8 @@
             <string>app\views\layouts\application.html.erb</string>
             <key>appl</key>
             <string>app\views\layouts\application.html.erb</string>
+            <key>appli</key>
+            <string>app\controllers\application_controller.rb</string>
             <key>css</key>
             <string>public\stylesheets\custom.css</string>
             <key>custom</key>
@@ -45,7 +47,7 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>sess</key>
-            <string>app\controllers\sessions_controller.rb</string>
+            <string>app\helpers\sessions_helper.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
             <key>use</key>
