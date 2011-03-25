@@ -12,6 +12,8 @@
             <string>public\stylesheets\custom.css</string>
             <key>custom</key>
             <string>public\stylesheets\custom.css</string>
+            <key>error</key>
+            <string>app\views\shared\_error_messages.html.erb</string>
             <key>gem</key>
             <string>Gemfile</string>
             <key>home</key>
@@ -43,7 +45,7 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>sess</key>
-            <string>spec\controllers\sessions_controller_spec.rb</string>
+            <string>app\controllers\sessions_controller.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
             <key>use</key>
