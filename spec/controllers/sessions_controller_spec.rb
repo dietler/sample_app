@@ -1,9 +1,10 @@
 require 'spec_helper'
 
 describe SessionsController do
-	render_views\
+	render_views
 
   describe "GET 'new'" do
+  	
     it "should be successful" do
       get :new
       response.should be_success
@@ -12,6 +13,7 @@ describe SessionsController do
     it "should have the right title" do
     	get :new
     	response.should have_selector('title', :content => "Sign in")
+  	end
     
   end
   
@@ -28,13 +30,13 @@ describe SessionsController do
   			response.should render_template('new')
 			end
 			
-			it "should ahve the right title" do
+			it "should have the right title" do
 				post :create, :session => @attr
 				response.should have_selector('title', :content => "Sign in")
 			end
 			
 			it "should have an error message" do
-				post :create. :session => @attr
+				post :create, :session => @attr
 				flash.now[:error].should =~ /invalid/i
 			end
 			
@@ -59,6 +61,18 @@ describe SessionsController do
 			end
 				
 		end
+		
+		describe "DELETE 'destroy'" do
+			
+			it "should sign a user out" do
+				test_sign_in(Factory(:user))
+				delete :destroy
+				controller.should_not be_signed_in
+				response.should redirect_to(root_path)
+			end
+			
+		end
+		
 	end
 
 end

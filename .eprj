@@ -18,11 +18,15 @@
             <string>app\views\shared\_error_messages.html.erb</string>
             <key>gem</key>
             <string>Gemfile</string>
+            <key>header</key>
+            <string>app\views\layouts\_header.html.erb</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
             <key>la</key>
             <string>spec\requests\layout_links_spec.rb</string>
             <key>lay</key>
+            <string>spec\requests\layout_links_spec.rb</string>
+            <key>layou</key>
             <string>spec\requests\layout_links_spec.rb</string>
             <key>layout</key>
             <string>spec\requests\layout_links_spec.rb</string>
@@ -47,13 +51,15 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>sess</key>
-            <string>app\helpers\sessions_helper.rb</string>
+            <string>app\controllers\sessions_controller.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
+            <key>spec</key>
+            <string>spec\spec_helper.rb</string>
             <key>use</key>
-            <string>spec\controllers\users_controller_spec.rb</string>
+            <string>spec\models\user_spec.rb</string>
             <key>user</key>
-            <string>app\models\user.rb</string>
+            <string>spec\controllers\users_controller_spec.rb</string>
             <key>users</key>
             <string>spec\requests\users_spec.rb</string>
         </dict>
