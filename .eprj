@@ -52,6 +52,8 @@
             <string>config\routes.rb</string>
             <key>sess</key>
             <string>app\controllers\sessions_controller.rb</string>
+            <key>session</key>
+            <string>app\helpers\sessions_helper.rb</string>
             <key>show</key>
             <string>app\views\users\show.html.erb</string>
             <key>spec</key>
