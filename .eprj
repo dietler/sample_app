@@ -61,7 +61,7 @@
             <key>user</key>
             <string>spec\controllers\users_controller_spec.rb</string>
             <key>users</key>
-            <string>spec\requests\users_spec.rb</string>
+            <string>spec\controllers\users_controller_spec.rb</string>
         </dict>
     </dict>
 </plist>
