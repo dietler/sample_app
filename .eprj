@@ -4,6 +4,10 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>_user</key>
+            <string>app\views\users\_user.html.erb</string>
+            <key>admin_t</key>
+            <string>db\migrate\20110328200448_add_admin_to_users.rb</string>
             <key>app</key>
             <string>app\views\layouts\application.html.erb</string>
             <key>appl</key>
@@ -32,6 +36,8 @@
             <string>app\views\layouts\_header.html.erb</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
+            <key>in</key>
+            <string>app\views\users\index.html.erb</string>
             <key>index</key>
             <string>app\views\users\index.html.erb</string>
             <key>la</key>
@@ -75,7 +81,11 @@
             <key>use</key>
             <string>spec\models\user_spec.rb</string>
             <key>user</key>
-            <string>spec\controllers\users_controller_spec.rb</string>
+            <string>app\controllers\users_controller.rb</string>
+            <key>user.rb</key>
+            <string>app\models\user.rb</string>
+            <key>user_sp</key>
+            <string>spec\models\user_spec.rb</string>
             <key>users</key>
             <string>app\controllers\users_controller.rb</string>
         </dict>
