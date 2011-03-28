@@ -18,6 +18,8 @@
             <string>app\views\shared\_error_messages.html.erb</string>
             <key>fact</key>
             <string>spec\factories.rb</string>
+            <key>facto</key>
+            <string>spec\factories.rb</string>
             <key>frie</key>
             <string>spec\requests\friendly_forwardings_spec.rb</string>
             <key>friend</key>
