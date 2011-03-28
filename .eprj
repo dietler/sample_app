@@ -16,19 +16,27 @@
             <string>public\stylesheets\custom.css</string>
             <key>error</key>
             <string>app\views\shared\_error_messages.html.erb</string>
+            <key>fact</key>
+            <string>spec\factories.rb</string>
             <key>frie</key>
             <string>spec\requests\friendly_forwardings_spec.rb</string>
             <key>friend</key>
             <string>spec\requests\friendly_forwardings_spec.rb</string>
             <key>gem</key>
             <string>Gemfile</string>
+            <key>head</key>
+            <string>app\views\layouts\_header.html.erb</string>
             <key>header</key>
             <string>app\views\layouts\_header.html.erb</string>
             <key>home</key>
             <string>app\views\pages\home.html.erb</string>
+            <key>index</key>
+            <string>app\views\users\index.html.erb</string>
             <key>la</key>
             <string>spec\requests\layout_links_spec.rb</string>
             <key>lay</key>
+            <string>spec\requests\layout_links_spec.rb</string>
+            <key>layl</key>
             <string>spec\requests\layout_links_spec.rb</string>
             <key>layou</key>
             <string>spec\requests\layout_links_spec.rb</string>
@@ -67,7 +75,7 @@
             <key>user</key>
             <string>spec\controllers\users_controller_spec.rb</string>
             <key>users</key>
-            <string>spec\controllers\users_controller_spec.rb</string>
+            <string>app\controllers\users_controller.rb</string>
         </dict>
     </dict>
 </plist>
