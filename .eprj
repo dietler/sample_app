@@ -16,6 +16,10 @@
             <string>public\stylesheets\custom.css</string>
             <key>error</key>
             <string>app\views\shared\_error_messages.html.erb</string>
+            <key>frie</key>
+            <string>spec\requests\friendly_forwardings_spec.rb</string>
+            <key>friend</key>
+            <string>spec\requests\friendly_forwardings_spec.rb</string>
             <key>gem</key>
             <string>Gemfile</string>
             <key>header</key>
@@ -51,7 +55,7 @@
             <key>routes</key>
             <string>config\routes.rb</string>
             <key>sess</key>
-            <string>app\controllers\sessions_controller.rb</string>
+            <string>app\helpers\sessions_helper.rb</string>
             <key>session</key>
             <string>app\helpers\sessions_helper.rb</string>
             <key>show</key>
