@@ -195,6 +195,7 @@ describe User do
 					Micropost.find(micropost)
 				end.should raise_error(ActiveRecord::RecordNotFound)
 			end
+			
 		end
 		
 	end
