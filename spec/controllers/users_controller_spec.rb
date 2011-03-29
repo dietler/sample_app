@@ -113,13 +113,13 @@ describe UsersController do
 		end
 		
 		it "should paginate microposts" do
-			35.times { Factotry(:micrposts, :user => @user, :content => "foo") }
+			35.times { Factory(:micropost, :user => @user, :content => "foo") }
 			get :show, :id => @user
 			response.should have_selector('div.pagination')
 		end
 		
 		it "should display the micropost count" do
-			10.times { Factotry(:micrposts, :user => @user, :content => "foo") }
+			10.times { Factory(:micropost, :user => @user, :content => "foo") }
 			get :show, :id => @user
 			response.should have_selector('td.sidebar', :content => @user.microposts.count.to_s)
 			
