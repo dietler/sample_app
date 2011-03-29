@@ -20,6 +20,8 @@
             <string>public\stylesheets\custom.css</string>
             <key>error</key>
             <string>app\views\shared\_error_messages.html.erb</string>
+            <key>fa</key>
+            <string>spec\factories.rb</string>
             <key>fact</key>
             <string>spec\factories.rb</string>
             <key>facto</key>
@@ -50,6 +52,12 @@
             <string>spec\requests\layout_links_spec.rb</string>
             <key>layout</key>
             <string>spec\requests\layout_links_spec.rb</string>
+            <key>mico</key>
+            <string>spec\models\micropost_spec.rb</string>
+            <key>micro</key>
+            <string>app\models\micropost.rb</string>
+            <key>micropo</key>
+            <string>spec\models\micropost_spec.rb</string>
             <key>new</key>
             <string>app\views\users\new.html.erb</string>
             <key>new.</key>
