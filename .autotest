@@ -1,0 +1,2 @@
+require 'autotest/growl'
+Autotest::Growl::clear_terminal = false

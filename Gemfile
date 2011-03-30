@@ -9,6 +9,7 @@ group :development do
   gem 'rspec-rails', '2.5.0'
   gem 'annotate-models', '1.0.4'
   gem 'faker', '0.3.1'
+  gem 'spork', '~> 0.9.0.rc'
 end
 
 group :test do
