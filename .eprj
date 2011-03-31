@@ -20,6 +20,8 @@
             <string>app\views\layouts\application.html.erb</string>
             <key>appli</key>
             <string>app\controllers\application_controller.rb</string>
+            <key>create</key>
+            <string>db\migrate\20110331032150_create_relationships.rb</string>
             <key>css</key>
             <string>public\stylesheets\custom.css</string>
             <key>custom</key>
@@ -67,7 +69,7 @@
             <key>mico</key>
             <string>spec\models\micropost_spec.rb</string>
             <key>micro</key>
-            <string>spec\requests\microposts_spec.rb</string>
+            <string>spec\models\micropost_spec.rb</string>
             <key>micropo</key>
             <string>app\views\microposts\_micropost.html.erb</string>
             <key>new</key>
@@ -82,6 +84,18 @@
             <string>spec\controllers\pages_controller_spec.rb</string>
             <key>pages</key>
             <string>app\controllers\pages_controller.rb</string>
+            <key>pcs</key>
+            <string>spec\controllers\pages_controller_spec.rb</string>
+            <key>rela</key>
+            <string>app\models\relationship.rb</string>
+            <key>relat</key>
+            <string>spec\models\relationship_spec.rb</string>
+            <key>relatio</key>
+            <string>spec\models\relationship_spec.rb</string>
+            <key>relation</key>
+            <string>app\models\relationship.rb</string>
+            <key>ro</key>
+            <string>config\routes.rb</string>
             <key>rou</key>
             <string>config\routes.rb</string>
             <key>rout</key>
@@ -90,6 +104,8 @@
             <string>config\routes.rb</string>
             <key>routes</key>
             <string>config\routes.rb</string>
+            <key>sample</key>
+            <string>lib\tasks\sample_data.rake</string>
             <key>sample_d</key>
             <string>lib\tasks\sample_data.rake</string>
             <key>sess</key>
@@ -114,6 +130,8 @@
             <string>spec\models\user_spec.rb</string>
             <key>users</key>
             <string>app\controllers\users_controller.rb</string>
+            <key>usersc</key>
+            <string>spec\controllers\users_controller_spec.rb</string>
         </dict>
     </dict>
 </plist>

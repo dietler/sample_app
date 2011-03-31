@@ -1,2 +1,6 @@
 require 'autotest/growl'
 Autotest::Growl::clear_terminal = false
+
+Autotest.add_hook :initialize do |at|
+	%w{.svn .hg .git vendor webrat.log test.log}.each {|exception| at.add_exception(exception)}
+end
