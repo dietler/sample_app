@@ -40,6 +40,8 @@
             <string>spec\factories.rb</string>
             <key>field</key>
             <string>app\views\users\_fields.html.erb</string>
+            <key>follow</key>
+            <string>app\views\users\_follow.html.erb</string>
             <key>frie</key>
             <string>spec\requests\friendly_forwardings_spec.rb</string>
             <key>friend</key>
@@ -116,6 +118,8 @@
             <string>app\views\users\show.html.erb</string>
             <key>spec</key>
             <string>spec\spec_helper.rb</string>
+            <key>unfollo</key>
+            <string>app\views\users\_unfollow.html.erb</string>
             <key>use</key>
             <string>spec\controllers\users_controller_spec.rb</string>
             <key>user</key>
